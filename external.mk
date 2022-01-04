@@ -1,2 +1,2 @@
-include $(sort $(wildcard $(BR2_EXTERNAL_HLK_7628N_PATH)/package/*/*.mk))
-include $(sort $(wildcard $(BR2_EXTERNAL_HLK_7628N_PATH)/toolchain/*/*.mk))
+include $(sort $(wildcard $(BR2_EXTERNAL_hlk_7628n_PATH)/package/*/*.mk))
+include $(sort $(wildcard $(BR2_EXTERNAL_hlk_7628n_PATH)/toolchain/*/*.mk))

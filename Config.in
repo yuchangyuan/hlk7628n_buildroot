@@ -1,4 +1,4 @@
-# Add project-specific packages for Buildroot here
-#
-# If these are non-proprietary, please consider contributing them back to
-# Nerves or Buildroot.
+source "$BR2_EXTERNAL_hlk_7628n_PATH/linux/Config.in"
+
+source "$BR2_EXTERNAL_hlk_7628n_PATH/package/openwrt-patches/Config.in"
+
