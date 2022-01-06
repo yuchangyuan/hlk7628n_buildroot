@@ -1,4 +1,4 @@
 source "$BR2_EXTERNAL_hlk7628n_PATH/linux/Config.in"
 
 source "$BR2_EXTERNAL_hlk7628n_PATH/package/openwrt-patches/Config.in"
-
+source "$BR2_EXTERNAL_hlk7628n_PATH/package/lzma-old/Config.in"
