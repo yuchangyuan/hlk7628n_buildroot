@@ -27,6 +27,10 @@
 			gpios = <&gpio 44 GPIO_ACTIVE_LOW>;
 		};
 	};
+
+	chosen {
+		bootargs = "console=ttyS0,57600 root=/dev/mtdblock4";
+	};
 };
 
 
