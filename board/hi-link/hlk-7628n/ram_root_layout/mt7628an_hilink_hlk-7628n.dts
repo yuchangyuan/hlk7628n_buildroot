@@ -72,11 +72,18 @@
 				read-only;
 			};
 
+            // kernel & rootfs
 			partition@50000 {
 				compatible = "denx,uimage";
 				label = "firmware";
-				reg = <0x50000 0x1fb0000>;
-			};
+				reg = <0x50000 0x13b0000>;
+            };
+
+            // 12M
+            partition@1400000 {
+                label = "application";
+                reg = <0x1400000 0xc00000>;
+            };
 		};
 	};
 };
