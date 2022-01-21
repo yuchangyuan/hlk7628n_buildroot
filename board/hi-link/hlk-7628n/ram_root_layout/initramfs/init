@@ -33,8 +33,9 @@ dd if=/dev/$mtd_rootfs_blk of=/root.sqfs bs=1K count=$size_k
 mount /root.sqfs $ROOT
 
 # clean up
-mount --move /sys  $ROOT/sys
-mount --move /proc $ROOT/proc
+umount /sys
+umount /proc
+
 mount --move /dev  $ROOT/dev
 
 # boot 
